@@ -4,7 +4,7 @@ import * as Icon from "react-bootstrap-icons";
 
 function ApplePlayer() {
   return (
-    <Container fluid className="bg-dark">
+    <Container fluid className="bg-dark d-lg-none">
       <div className="d-flex justify-content-between py-2">
         <div>
           <img src={First} style={{ height: "5.5em" }} className="rounded-4"/>
