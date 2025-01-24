@@ -13,7 +13,7 @@ function App() {
         <AppleBar />
         <div>
           <AppleNovita />
-          <AppleNew/>s
+          <AppleNew/>
           <AppleOthers />
           <AppleFooter />
         </div>

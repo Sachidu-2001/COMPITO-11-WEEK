@@ -13,7 +13,7 @@ function AppleNovita() {
   return (
     <Container fluid className="pt-5 bg-black">
       <div>
-        <h2 className="display-2 fw-bold text-white">Novità</h2>
+        <h2 className="display-4 fw-bold text-white">Novità</h2>
         <hr className="text-white" />
         <div className="d-flex">
           <div>
@@ -45,7 +45,7 @@ function AppleNovita() {
         </div>
       </div>
       <div className="mt-5 py-3">
-        <h2 className="text-white">Nuovi episodi radio <Icon.CaretRight /> </h2>
+        <h2 className="text-white">Nuovi episodi radio <Icon.ChevronRight /> </h2>
         <div className="d-flex">
             <div className="me-3">
                 <img src={First} style={{height:'13em'}}  className="rounded-4"/>
