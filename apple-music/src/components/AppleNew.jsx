@@ -1,9 +1,9 @@
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function AppleNew() {
-  const [music, SetMusic] = useState();
+  const [music, setMusic] = useState(null);
 
   const collectCards = async () => {
     try {
@@ -11,10 +11,15 @@ function AppleNew() {
         "https://striveschool-api.herokuapp.com/api/deezer/search?q=queen"
       );
       const data = await response.json();
+      SetMusic(data)
     } catch (error) {
       console.error("La musica non ci sarà", error);
     }
   };
+
+  useEffect(() => {
+    collectCards();
+  }, [])
 
   return (
     <Container fluid>
