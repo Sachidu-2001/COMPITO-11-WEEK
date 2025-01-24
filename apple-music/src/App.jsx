@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AppleBar from './components/AppleBar';
+import AppleBar from './components/AppleBar.jsx'
 
 
 function App() {
