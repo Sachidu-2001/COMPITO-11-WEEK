@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 function AppleFooter() {
     return(
-        <Container fluid className="bg-dark pt-4" >
+        <Container fluid className="bg-secondary pt-4" >
             <div className="d-flex">
                 <p className="text-white">Italia |</p>&nbsp;
                 <p className="text-white">English(UK)</p>
