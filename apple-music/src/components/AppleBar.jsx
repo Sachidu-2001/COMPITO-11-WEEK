@@ -5,7 +5,7 @@ import MusicLogo from '../assets/logos/music.svg'
 
 function AppleBar() {
   return (
-    <Navbar expand="lg" className="bg-warning">
+    <Navbar expand="lg" className="bg-warning py-3">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
